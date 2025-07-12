@@ -1,3 +1,11 @@
-# 🐳 Ansible Docker Setup
+Playbook برای نصب Docker و Docker Compose روی سیستم‌های لینوکسی.
 
-نصب Docker روی سرور Ubuntu با Ansible.
+## ⚙️ اجرا
+```bash
+ansible-playbook -i hosts.ini install-docker.yml
+
+🎯 کاربرد
+
+راه‌اندازی سریع Docker در سرورها
+
+استانداردسازی محیط‌ها
